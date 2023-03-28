@@ -1,0 +1,121 @@
+body{
+    font-family: 'Proxima Nova Alt Lt', sans-serif;
+                                                
+}
+
+h2 {
+    font-size: 25px;
+    font-weight:bold;
+    color: #00454E;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00454E;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight:300;
+    margin: 0;
+}
+
+.container {
+    max-width: 479px;
+    margin: 0 auto;
+    background-color: #FFFEF6;
+    padding: 20px;
+}
+
+/* SØGE FELT */
+
+.search-field {
+    width: 100%;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid #00454E;
+    background-color: #FDF4EC;
+    background-image: url(imgs/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: 10px;
+    text-indent: 40px;
+    font-size: 20px;
+    color: #00454E;
+    margin-bottom: 20px;
+}
+
+    ::placeholder {
+        color: #00454E;
+    }
+
+/* KATEGORI OVERSKRIFT */
+
+.kategori-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+    .see-all-button {
+        display: flex;
+        align-items: center;
+    }
+
+        .arrow-icon {
+            height: 10px;
+            margin-left: 5px;
+        }
+
+/* PRODUKT STOR */
+
+.product-big {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .product-img {
+        height: 120px;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;
+    }
+
+    .product-info {
+        display: flex;
+        justify-content: space-between;
+        background-color: #CAE4E3;
+        height: 90px;
+        padding:10px;
+        border-radius: 0 0 20px 20px;
+    }
+
+        .info-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 60%;
+        }
+
+        .info-pris {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+            .rating-wrapper {
+                display: flex;
+            }
+
+                .star-img {
+                    margin-left: 5px;
+                }
+
+    .product {
+
+    }
+
+
