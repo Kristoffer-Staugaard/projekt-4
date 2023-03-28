@@ -1,6 +1,6 @@
 body{
     font-family: 'Proxima Nova Alt Lt', sans-serif;
-                                                
+    margin: 0;
 }
 
 h2 {
@@ -21,14 +21,16 @@ p {
     font-size: 14px;
     font-weight:300;
     margin: 0;
+    white-space:normal;
 }
 
 .container {
     max-width: 479px;
     margin: 0 auto;
-    background-color: #FFFEF6;
+    background-color:#FFFEF6;
     padding: 20px;
 }
+
 
 /* SØGE FELT */
 
@@ -52,6 +54,7 @@ p {
         color: #00454E;
     }
 
+
 /* KATEGORI OVERSKRIFT */
 
 .kategori-heading {
@@ -69,7 +72,8 @@ p {
             margin-left: 5px;
         }
 
-/* PRODUKT STOR */
+
+/* PRODUKT */
 
 .product-big {
     width: 100%;
@@ -81,6 +85,8 @@ p {
         width: 100%;
         border-radius: 20px 20px 0 0;
         object-fit: cover;
+        vertical-align: bottom;
+
     }
 
     .product-info {
@@ -115,7 +121,19 @@ p {
                 }
 
     .product {
+        width: 280px;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
 
+
+    /* HROIZONTAL SCROLL */
+
+    .scroll-menu {
+        display: flex;
+        overflow:auto;
+        white-space: nowrap;
+        margin-bottom: 20px;
     }
 
 
