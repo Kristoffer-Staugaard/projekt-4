@@ -43,7 +43,8 @@ p {
     align-items: flex-end;
     padding: 15px 0;
     width: 100%;
-    border-top: #00454E solid;
+    flex-shrink: 0;
+    border-top: #00454E solid 1px;
 }
 
     .nav-tab {
