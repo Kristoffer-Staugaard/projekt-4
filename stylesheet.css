@@ -1,6 +1,19 @@
 body{
     font-family: 'Proxima Nova Alt Lt', sans-serif;
     margin: 0;
+    max-width: 479px;
+    margin: 0 auto;
+    background-color:#FFFEF6;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00454E;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -21,22 +34,39 @@ p {
     font-size: 14px;
     font-weight:300;
     margin: 0;
-    white-space:normal;
 }
 
-.container {
-    max-width: 479px;
-    margin: 0 auto;
-    background-color:#FFFEF6;
-    padding: 20px;
+a {
+    color: #00454E;
+    text-decoration: none;
 }
 
+.filter-text {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+/* KNAP */
+
+.main-button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFEF6;
+    background-color: #00454E;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    height: 46px;
+}
 
 /* NAVBAR */
 
 .nav-wrapper {
     position: fixed;
     bottom: 0;
+    left: 0;
     display: flex;
     background-color: #CAE4E3;
     justify-content: space-around;
@@ -151,6 +181,7 @@ p {
         width: 280px;
         margin-right: 10px;
         flex-shrink: 0;
+        white-space:normal;
     }
 
 
@@ -162,5 +193,100 @@ p {
         white-space: nowrap;
         margin-bottom: 20px;
     }
+
+
+/* PRODUKT SIDE */   
+/* PRODUKT BILLEDE */
+
+.product-page-img {
+    height: 220px;
+    width: auto;
+    background-image: url(imgs/kylling-bacon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    margin: -20px;
+}
+
+    .back-button {
+        margin: 20px;
+    }
+
+.product-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+    border-bottom: #00454E solid;
+
+}
+
+    .margin-buttom {
+        margin-bottom: 10px;
+    }
+
+.produkt-indhold {
+    border-bottom: #00454E solid;
+    padding: 20px 0;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+    .star-rating-wrapper {
+        margin: 20px 0;
+    }
+
+
+/* FILTER */
+
+.filter {
+    border: #00454E solid 1px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    background-color:#FDF4EC;
+}
+
+/* LOGIN SIDE */
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    .logo {
+        height: 220px;
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    label {
+        font-size: 25px;
+        font-weight: bold;
+        color: #00454E;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #00454E;
+        background-color: #FDF4EC;
+        font-size: 20px;
+        color: #00454E;
+        margin-bottom: 20px;
+    }
+
 
 
