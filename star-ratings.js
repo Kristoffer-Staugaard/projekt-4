@@ -12,6 +12,6 @@ let star = document.querySelectorAll('input');
 
         submitBtn.addEventListener('click', function () {
         
-            let container = document.querySelector('.container');
+            let container = document.querySelector('.container-star');
             container.innerHTML = '<h3>Tak for dit input</h3>';
         });
