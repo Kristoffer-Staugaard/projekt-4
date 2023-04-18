@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="da" dir="ltr">
     <head>
         <meta charset="UTF-8">
@@ -25,13 +25,13 @@
                     <p>Udforsk</p>
                 </div>
             </a>
-            <a href="populeart.html"> 
+            <a href="populeart.html">
                 <div class="nav-tab">
                     <img class="nav-icon" src="imgs/popleart.svg" alt="Gå til populært siden ikon">
                     <p>Populært</p>
                 </div>
             </a>
-            <a href=""> 
+            <a href="">
                 <div class="nav-tab">
                     <img class="nav-icon" src="imgs/profil.svg" alt="Gå til profil siden ikon">
                     <p>Profil</p>
@@ -47,7 +47,10 @@
 
          <div class="scroll-menu">
             <a>
-                <div class="filter-text"><p class="filter">Billigst</p></div>
+                <div class="filter-text">
+                <button id="cheapest-button"  click="function()" class="filter">Billigst</button>
+                </div>
+
             </a>
             <a>
                 <div class="filter-text"><p class="filter">Vegetar</p></div>
@@ -63,19 +66,22 @@
             </a>
          </div>
 
-         <!-- SANDWICHES -->
+         <!-- PRODUKTER -->
+
+         <div class="product-list">
 
         <a>
             <div class="product-big">
                 <img class="product-img" src="imgs/kylling-bacon.jpg">
                 <div class="product-info">
                     <div class="info-text">
-                        <h3>Kylling bacon</h3>
+                        <h3>Kylling bacon sandwich</h3>
                         <p>Denne sandwich består af kylling, Bacon, Karrysalat.</p>
                     </div>
                     <div class="info-pris">
                         <div class="rating-wrapper"> <p>4.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
-                        <h2>35,00 kr.</h2>
+                        <h2 class="price">35,00 kr.</h2>
+
                     </div>
                 </div>
             </div>
@@ -86,12 +92,13 @@
                 <img class="product-img" src="imgs/eag-rejer.jpg">
                 <div class="product-info">
                     <div class="info-text">
-                        <h3>Æg og rejer</h3>
+                        <h3>Æg og reje sandwich</h3>
                         <p>Denne sandwich består af æg, Rejer, Salat og ost.</p>
                     </div>
                     <div class="info-pris">
-                        <div class="rating-wrapper"> <p>4.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
-                        <h2>35,00 kr.</h2>
+                        <div class="rating-wrapper"> <p>6.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">35,00 kr.</h2>
+
                     </div>
                 </div>
             </div>
@@ -102,12 +109,13 @@
                 <img class="product-img" src="imgs/tunmus.jpg">
                 <div class="product-info">
                     <div class="info-text">
-                        <h3>Tunmus</h3>
+                        <h3>Tunmus sandwich</h3>
                         <p>Denne sandwich består af tun og mus</p>
                     </div>
                     <div class="info-pris">
-                        <div class="rating-wrapper"> <p>4.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
-                        <h2>55,00 kr.</h2>
+                        <div class="rating-wrapper"> <p>4.1</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">55,00 kr.</h2>
+
                     </div>
                 </div>
             </div>
@@ -118,15 +126,130 @@
                 <img class="product-img" src="imgs/kylling.jpg">
                 <div class="product-info">
                     <div class="info-text">
-                        <h3>Kylling</h3>
+                        <h3>Kylling sandwich</h3>
                         <p>Denne sandwich består af kylling, salat og ost.</p>
                     </div>
                     <div class="info-pris">
-                        <div class="rating-wrapper"> <p>4.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
-                        <h2>35,00 kr.</h2>
+                        <div class="rating-wrapper"> <p>9.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">35,00 kr.</h2>
+
                     </div>
                 </div>
             </div>
         </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/romkugle.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>RomKugle</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>3.8</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">18,00 kr.</h2>
 
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/scone.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Scone</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>3.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">15,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/dagens.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Dagens kage</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>4.3</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">15,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/cookie.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Cookie</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>2.8</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">12,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/ceasar.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Cæsar Salat</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>3.7</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">20,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/greek.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Græsk Salat</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>8.8</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">18,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a>
+            <div class="product-big">
+                <img class="product-img" src="imgs/iceberg.jpg">
+                <div class="product-info">
+                    <div class="info-text">
+                        <h3>Iceberg Salat</h3>
+                        <p>Sprød sandwich som består af kylling, Bacon, Karrysalat.</p>
+                    </div>
+                    <div class="info-pris">
+                        <div class="rating-wrapper"> <p>5.8</p> <img class="star-img" src="imgs/star-1.svg" alt="Stjerne rating ikon"> </div>
+                        <h2 class="price">25,00 kr.</h2>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </a>
+<script src="Udforsk-Sorting.js"></script>
     </body>
+    </html>
