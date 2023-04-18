@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>UCL Foods</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
         <link href="https://fonts.cdnfonts.com/css/proxima-nova-alt-lt-2" rel="stylesheet"> 
+        <script src= "star-ratings.js" defer> </script>
     </head>
 
     <body>
@@ -71,6 +74,24 @@
 
         <div class="rating">
             <h2>Bedøm dette produkt</h2>
+            <div class="container">
+                <div class="rating-wrap">
+                    Bedøm din oplevelse af produktet
+                    <div class="center">
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label for="star5" class="full"
+                                title="Awesome"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4" class="full"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3" class="full"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2" class="full"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1" class="full"></label>
+                        </fieldset>
+                    </div>
+        
+                    <h4 id="rating-value"></h4>
+        
+                    <button type="submit" id="submit-btn">Bedøm</button>
+
             
         </div>
 
