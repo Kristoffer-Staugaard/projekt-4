@@ -4,42 +4,43 @@ const daysOfWeek = [
     day: "Sunday",
     photo: "",
     text: "LUKKET",
-    description: "Bolognaise"
+    beskrtivelse: " "
 
   },
   {
     day: "Monday",
     photo: "imgs/cheeseburger.jpg",
     text: "Cheeseburger",
-    beskrivelse: "Bolognaise"
+    beskrtivelse: "Lækker bygselv cheeseburger består af hakkebøf, ost, selvalgt salat og ketchup."
 
   },
   {
     day: "Tuesday",
     photo: "imgs/bolognaise.jpg",
     text: "Bolognaise",
-    beskrivelse: "Bolognaise er godt"
+    beskrivelse: "En ægte italiensk klassiker serveret med spaghetti af hakket oksekøbt, tomatsauce og grøntsager"
+   
 
   },
   {
     day: "Wednesday",
     photo: "imgs/hamburger.jpg",
     text: "Hamburger",
-    beskrivelse: "Bolognaise"
+    beskrivelse: "Simpel men utrolig lækker bygselv hamburger, består af hakkebød, selvvalgt salat og ketchup."
 
   },
   {
     day: "Thursday",
     photo: "imgs/boller.jpg",
     text: "Boller i karry",
-    beskrivelse: "Bolognaise"
+    beskrivelse: "En hverdagsklassiker i Danmark. Består af hakket kød, ris og karrysovs."
 
   },
   {
     day: "Friday",
     photo: "imgs/fried.jpg",
     text: "Fried kylling",
-    beskrivelse: "Bolognaise"
+    beskrivelse: "Fra sydstasterne selv, FRIED CHICKEN lækker sprød kylling, med hotsauce på eget ansvar"
 
   },
   {
