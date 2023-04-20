@@ -169,6 +169,14 @@ a {
             align-items: flex-end;
         }
 
+            .rating-wrapper {
+                display: flex;
+            }
+
+                .star-img {
+                    margin-left: 5px;
+                }
+
     .product {
         width: 280px;
         margin-right: 10px;
